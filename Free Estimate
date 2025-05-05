@@ -1,39 +1,34 @@
 
-<body class="twoColLiqRtHdr" onLoad="MM_preloadImages('Fireworks/AlsideSidingHome.jpg')">
-<div id="container">
-  <div id="header">
-    <div id="headerlogo"> <img id = "logoimage" src="Fireworks/United Logo 30.gif" alt="" width="219" height="50" align="left"> <img src="Fireworks/Telnumber516.png" alt="" align="right" id = "tellimage"> </div>
-    <div class = "headercontent">
-      <h2 id = "homehappy">Another Home Made Happy!</h2>
-      <ul id="MenuBar1" class="MenuBarHorizontal">
-        <li><a href="Products.html">Store</a></li>
-        <li><a href="#" class="MenuBarItemSubmenu">Company</a>
-          <ul>
-            <li><a href="About.html">About</a></li>
-            <li><a href="News.html">News</a></li>
-            <li><a href="Pictures.html">Pictures</a></li>
-            <li><a href="Advertisedpricing.html">Advertised Pricing</a></li>
-            <li><a href="Resources.html">Resources</a></li>
-            <li><a href="Satisfied.html">Satisfied Customers</a></li>
-          </ul>
-        </li>
-        <li><a class="MenuBarItemSubmenu" href="#">Products</a>
-          <ul>
-            <li><a href="Windows.html">Windows</a></li>
-            <li><a href="Siding.html">Siding</a></li>
-            <li><a href="Doors.html">Doors</a></li>
-            <li><a href="Roof.html">Roofing</a></li>
-            <li><a href="RailingFence.html">Railing</a></li>
-            <li><a href="RailingFence.html">Fencing</a></li>
-            <li><a href="Bayprice.html">Bows/Bays</a></li>
-            <li><a href="Stockwindows.html">Stock Windows</a></li>
-          </ul>
-        </li>
-        <li><a href="Showroom.html">Showroom</a></li>
-        <li><a href="Specials.html">Specials</a></li>
-        <li><a href="Estimate.html">Free Estimates</a></li>
-        <li><a href="Contactus.html">Contact Us</a></li>
-      </ul>
-    </div>
-    <!-- end #header -->
-  </div>
+<div id="divapplebar" align="left"><h5 id ="applebar" align="right">Free Estimate</h5></div>
+ 
+  <!-- end #header --></div>
+  <div id="sidebar1">
+
+<div class="divcontent" align="left">
+<h2 class="h2productm" align="left">Menu</h2>  
+<ul class = "ulproductm">
+<li><a href="Showroom.html">Showroom</a></li>
+<li><a href="Products.html">Products</a></li>
+<li><a href="News.html">News</a></li>
+<li><a href="Estimate.html">Free Estimate</a></li>
+<li><a href="Pictures.html">See Pictures</a></li> 
+<li><a href="Advertisedpricing.html">Advertisement Pricing</a></li> 
+<li><a href="Bayprice.html">Bays and Bows Pricing</a></li>
+<li><a href="Resources.html">Resources</a></li>
+<li><a href="Tax Cut.html">Tax Cut Info</a></li>
+</ul>
+</div>
+<div class="divcontent" align="left"> 
+<h2 class="h2productm" align="left">Products</h2> 
+<ul class= "ulproductm">
+<li><a href="Windows.html">Windows</a></li>
+<li><a href="Bayprice.html">Bays/Bows</a></li>
+<li><a href="Siding.html">Siding</a></li> 
+<li><a href="Doors.html?tab=3">Garage Doors</a></li>
+<li><a href="Doors.html">Doors</a></li>
+<li><a href="Roof.html">Roofing</a></li> 
+<li><a href="RailingFence.html">Railing/Fencing</a></li>
+<li><a href="Products/Basement Windows.html">Basement Windows</a></li>
+<li><a href="Stockwindows.html">Stock Windows</a></li>
+</ul>
+</div> 
