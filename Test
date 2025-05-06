@@ -70,7 +70,7 @@
 <body>
     <header>
         <h1>United Driveways</h1>
-        <p>Quality Driveways That Last a Lifetime</p>
+        <p>Another Home Made Happy!</p>
     </header>
     <nav>
         <a href="#">Home</a>
@@ -89,7 +89,7 @@
             <div class="service"><h3>Sealcoating Driveways</h3><p>Durable and cost-effective solutions for smooth surfaces.</p></div>
             <div class="service"><h3>Gutter Cleaning</h3><p>Long-lasting with a clean, modern finish.</p></div>
             <div class="service"><h3>Driveway Repairs</h3><p>Fix cracks, potholes, and other damage.</p></div>
-            <div class="service"><h3>Sealcoating</h3><p>Extend the life of your driveway with professional care.</p></div>
+            <div class="service"><h3>Power Washing</h3><p>Extend the life of your driveway with professional care.</p></div>
             <div class="service"><h3>Gravel Driveways</h3><p>Affordable and rustic for rural or large properties.</p></div>
         </div>
     </div>
