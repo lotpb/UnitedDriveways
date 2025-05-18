@@ -20,19 +20,8 @@
 <meta http-equiv="refresh" content="1000">
 
     <title>United Driveways - Residential & Commercial Driveway Services.</title>
-    <style>
     
-@media only screen and (max-width: 768px) {
-    .hero-text {
-        width: 90%; /* Adjust percentage as needed */
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .hero-text {
-        width: 80%; /* Adjust percentage as needed */
-    }
-}
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -148,6 +137,36 @@
             }
           img {float: left;
             }
+            @media only screen and (max-width: 768px) {
+    /* Styles for iPad (both portrait and landscape) */
+    body {
+        max-width: 700px; /* Adjust the text width for iPad */
+        margin: auto;
+    }
+
+    .hero-text {
+        width: 90%; /* Reduce the width for better readability */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for iPhone */
+    body {
+        max-width: 400px; /* Adjust the text width for iPhone */
+        margin: auto;
+    }
+
+    .hero-text {
+        width: 80%; /* Reduce the width even more for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-text {
+        width: 90%; /* Adjust percentage as needed */
+    }
+}
+
     </style>
     
 </head>
