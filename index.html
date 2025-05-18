@@ -1,26 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="author" content="Peter Balsamo">
-<meta name="description" content="United Driveways"><meta name="keywords" content="HTML, CSS, JavaScript, sealcoating NY, driveways NY, power washing NY, driveway repairs NY, gutter cleaning NY, home improvement">
-<meta name="zipcode" content="11735">
-<meta name="city" content="Farmingdale">
-<meta name="state" content="NY">
-<meta name="metropolitan" content="New York">
-<meta name="country" content="United States">
-<meta name="robots" content="all">
-<meta name="revisit-after" content="14 Days">
-<meta name="distribution" content="global">
-<meta name="document-classification" content="general">
-<meta name="rating" content="General">
-<meta name="generator" content="HTML Tidy for Linux (vers 1 September 2005), see www.w3.org">
-<link rel="shortcut icon" href="/favicon.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="refresh" content="1000">
+    <meta charset="UTF-8">
+    <meta name="author" content="Peter Balsamo">
+    <meta name="description" content="United Driveways">
+    <meta name="keywords" content="HTML, CSS, JavaScript, sealcoating NY, driveways NY, power washing NY, driveway repairs NY, gutter cleaning NY">
+    <meta name="zipcode" content="11735">
+    <meta name="city" content="Farmingdale">
+    <meta name="state" content="NY">
+    <meta name="metropolitan" content="New York">
+    <meta name="country" content="United States">
+    <meta name="robots" content="all">
+    <meta name="revisit-after" content="14 Days">
+    <meta name="distribution" content="global">
+    <meta name="document-classification" content="general">
+    <meta name="rating" content="General">
+    <meta name="generator" content="HTML Tidy for Linux (vers 1 September 2005), see www.w3.org">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="1000">
 
     <title>United Driveways - Residential & Commercial Driveway Services.</title>
-    
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,54 +28,66 @@
             background-color: white;
             color: #333;
         }
+
         header {
             background-color: white;
             color: black;
             text-align: left;
         }
+
         nav {
-          height: 20px;
+            height: 75px;
             background-color: white;
             display: flex;
             justify-content: center;
-            gap: 15px;
-            padding: 10px 0;
+            gap: 20px;
+            padding: 20px 0;
         }
+
         nav a {
             color: black;
             text-decoration: none;
             font-weight: bold;
         }
-        
+
         .navheader {
-          height: 15px;
-          width: auto;
-          background-color: black;
-          color: white;
-          padding-top: 15px;
-          }
-          
-          .navheader a {
+            height: 15px;
+            width: auto;
+            background-color: black;
+            color: white;
+            padding-top: 15px;
+        }
+
+        .navheader a {
             padding-left: 10px;
             color: white;
             text-decoration: none;
             font-weight: bold;
             font-size: 90%;
-           }
-            
+        }
+
+        .myDiv {
+            padding-top: 0px;
+            border: 5px outset red;
+            background-color: lightblue;
+            text-align: left;
+        }
+
         .hero-image {
             background-image: url("/IMG_0203.jpeg");
             background-repeat: no-repeat;
             background-position: right top;
-          }
-        .hero-text {
-           text-align: center;
-           position: absolute;
-           top: 50%;
-           left: 50%;
-           transform: translate(-50%, -50%);
-           color: white;
         }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
         .hero {
             height: 250px;
             display: flex;
@@ -87,24 +98,28 @@
             font-size: 2em;
             text-align: center;
         }
+
         .container {
             padding: 40px 20px;
             max-width: 1000px;
             margin: auto;
         }
+
         .services {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
             margin-top: 20px;
         }
+
         .service {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             line-height: 1.8;
         }
+
         footer {
             background-color: black;
             color: white;
@@ -112,142 +127,135 @@
             padding: 20px 0;
             margin-top: 40px;
         }
-        
-        .divform { width: 50%;
-          margin:auto;
-          text-align: center; 
-          font-weight: bold;
-          justify-content: center;
-          display: flex;
-          border: 2px solid black;
-          padding:30px;background-color: orange;
+
+        .divform {
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+            display: flex;
+            border: 2px solid black;
+            padding: 30px;
+            background-color: orange;
         }
-    
-        
-        .myDiv {
-            padding-top: 0px;
-            border: 5px outset red;
-            background-color: lightblue;
-            text-align: left;
-          }
 
-          h3 {color:orange; padding: 10px;}
-          p {padding: 10px;}
-            input::placeholder{color: black;
-            }
-          img {float: left;
-            }
-@media only screen and (max-width: 768px) {
-    /* Styles for iPad (both portrait and landscape) */
-    body {
-        max-width: 700px; /* Adjust the text width for iPad */
-        margin: auto;
-    }
+        .divform h3 {
+            color: orange;
+            padding: 10px;
+        }
 
-    .hero-text {
-        width: 90%; /* Reduce the width for better readability */
-    }
-}
+        .divform p {
+            padding: 10px;
+        }
 
-@media only screen and (max-width: 480px) {
-    /* Styles for iPhone */
-    body {
-        max-width: 400px; /* Adjust the text width for iPhone */
-        margin: auto;
-    }
+        input::placeholder {
+            color: black;
+        }
 
-    .hero-text2 {
-        width: 100%; /* Reduce the width even more for smaller screens */
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .hero-text2 {
-        width: 90%; /* Adjust percentage as needed */
-    }
-}
+        img {
+            float: left;
+        }
     </style>
-    
 </head>
+
 <body>
     <header>
-    <div>
-        
-    <nav class="navheader">
-        <a href="#">Residential & Commercial Driveway Sealcoating & Repair</a>
-    </nav>
-    <img src="IMG_0220.jpeg" alt="Diveways" width="250" height="95">
-      <nav height"90px">
-        <a href="#">Home</a>
-        <a href="#">Sealcoating</a>
-        <a href="#">Powerwashing</a>
-        <a href="#">Gallery</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Contact</a>
-    </nav>
-    <div><strong>Contact us online or call 800-773-6633</strong></div>
-    </div>
+        <div>
+            <nav class="navheader">
+                <a href="#">Residential & Commercial Driveway Sealcoating & Repair</a>
+            </nav>
+            <img src="IMG_0220.jpeg" alt="Driveways" width="250" height="95">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sealcoating</a>
+                <a href="#">Powerwashing</a>
+                <a href="#">Gallery</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div><strong>Contact us online or call 800-773-6633</strong></div>
+        </div>
     </header>
-  
+
     <div class="hero-image">
-      <div class="hero-text">
-        <h1 style="font-size:50px">I am Jane Doe</h1>
-        <h3>I am a driveway sealcoater</h3>
-        <button>Hire me</button>
+        <div class="hero-text">
+            <h1 style="font-size:50px">I am Jane Doe</h1>
+            <h3>I am a driveway sealcoater</h3>
+            <button>Hire me</button>
         </div>
-        </div>
-      
-        <div class="myDiv">
+    </div>
+
+    <div class="myDiv">
         <section>
-        <h3> YOUR ASPHALT</h3>
-        <p class="service"><img src="IMG_0207.jpeg" alt="Girl in a jacket" style="width:100%;height:300px;margin-right:15px;">Sealcoating protects asphalt from UV rays, water, oil spills, and other damage, extending its life and reducing repair costs. It also enhances the appearance of commercial properties with a smooth, jet-black finish, giving your home great curb appeal
-        </p>
-            
-        <h3>BENEFITS OF RESIDENTIAL SEALCOATING</h3>
-        <p class="service"><img src="IMG_0203.jpeg" alt="Girl in a jacket" style="width:100%x;height:300px;margin-right:15px;">By sealing your blacktop once per year, you protect the surface from damage caused by oil, chemicals, and nature - meaning your driveway will look new for as long as you maintain it! United Driveways uses Velvetop sealcoat throughout Long Island. United Driveways can help you design a maintenance plan for your driveway, incorporating elements of seal coat, crack seal, asphalt patching, and asphalt repair. United sealcoating is a cost effective way to extend the life of your asphalt driveway or parking lot. While replacing a driveway can be expensive, an asphalt maintenance plan is relatively cheap.  
-        </p>
+            <h3>YOUR ASPHALT</h3>
+            <p class="service">
+                <img src="IMG_0207.jpeg" alt="Girl in a jacket" style="width:100%;height:300px;margin-right:15px;">
+                Sealcoating protects asphalt from UV rays, water, oil spills, and other damage.
+            </p>
+
+            <h3>BENEFITS OF RESIDENTIAL SEALCOATING</h3>
+            <p class="service">
+                <img src="IMG_0203.jpeg" alt="Girl in a jacket" style="width:100%;height:300px;margin-right:15px;">
+                By sealing your blacktop once per year, you protect the surface from wear and tear.
+            </p>
         </section>
-        </div>
+    </div>
 
-<div class="divform">
-  <form action="/action_page.php" autocomplete="on" method="post" name="Estimate">
-  <input type="hidden" name="recipient" value="0">
-  <h2>REQUEST A FREE ESTIMATE</h2>
-  <input type="text" id="name" name="name" placeholder="NAME *" size=25><br><br>
-  <input type="text" id="email" name="email" placeholder="EMAIL *" size=25><br><br>
-  <input type="text" id="phone" name="phone" placeholder="PHONE *" size=35><br><br>  
-  <input type="text" id="zip" name="zipcode" placeholder="ZIPCODE *" size=35><br><br>
-  <label for="here">HOW DID YOU HEAR ABOUT US? *</label><br>
-    
-    <select id="source" name="source">
-      <option value=""></option>
-      <option value="advertisement">Advertisment</option>
-      <option value="flyer">Flyer</option>
-      <option value="previous customer">Previous Customer</option>
-      <option value="referral">Referral</option>
-      <option value="jobsign">Jobsign</option>
-      <option value="google">Google</option>
-      <option value="truck/sign">Truck/Sign</option>
-      <option value="other">Other</option>
-    </select><br><br>
+    <div class="divform">
+        <form action="/action_page.php" autocomplete="on" method="post" name="Estimate">
+            <input type="hidden" name="recipient" value="0">
+            <h2>REQUEST A FREE ESTIMATE</h2>
+            <input type="text" id="name" name="name" placeholder="NAME *" size="35"><br><br>
+            <input type="text" id="email" name="email" placeholder="EMAIL *" size="35"><br><br>
+            <input type="text" id="phone" name="phone" placeholder="PHONE *" size="35"><br><br>
+            <input type="text" id="zip" name="zipcode" placeholder="ZIPCODE *" size="35"><br><br>
+            <label for="here">HOW DID YOU HEAR ABOUT US? *</label><br>
+            <select id="source" name="source">
+                <option value=""></option>
+                <option value="advertisement">Advertisement</option>
+                <option value="flyer">Flyer</option>
+                <option value="previous customer">Previous Customer</option>
+                <option value="referral">Referral</option>
+                <option value="jobsign">Jobsign</option>
+                <option value="google">Google</option>
+                <option value="truck/sign">Truck/Sign</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
-  <input type="submit" value="Submit" size=30>
-</form>
-</div>
-          
     <div class="container">
         <h2>Our Services</h2>
         <div class="services">
-            <div class="service"><h3>Sealcoating Driveways</h3><p>Durable and cost-effective solutions for smooth surfaces.</p></div>
-            <div class="service"><h3>Gutter Cleaning</h3><p>Long-lasting with a clean, modern finish.</p></div>
-            <div class="service"><h3>Driveway Repairs</h3><p>Fix cracks, potholes, and other damage.</p></div>
-            <div class="service"><h3>Power Washing</h3><p>Extend the life of your driveway with professional care.</p></div>
-            <div class="service"><h3>Commercial Services</h3><p>Affordable and rustic for rural or large properties.</p></div>
+            <div class="service">
+                <h3>Sealcoating Driveways</h3>
+                <p>Durable and cost-effective solutions for smooth surfaces.</p>
+            </div>
+            <div class="service">
+                <h3>Gutter Cleaning</h3>
+                <p>Long-lasting with a clean, modern finish.</p>
+            </div>
+            <div class="service">
+                <h3>Driveway Repairs</h3>
+                <p>Fix cracks, potholes, and other damage.</p>
+            </div>
+            <div class="service">
+                <h3>Power Washing</h3>
+                <p>Extend the life of your driveway with professional care.</p>
+            </div>
+            <div class="service">
+                <h3>Commercial Services</h3>
+                <p>Affordable and rustic for rural or large properties.</p>
+            </div>
         </div>
     </div>
+
     <footer>
         <p>Contact us: (123) 456-7890 | info@uniteddriveways.com</p>
         <p>&copy; 2025 United Driveways. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
